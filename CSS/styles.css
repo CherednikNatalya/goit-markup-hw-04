@@ -78,6 +78,18 @@ color: var(--accent-color);
 color: #000000;
 }
 
+.header-icon {
+align-items: center;
+margin-right: 10px;
+/* outline: 1px solid tomato; */
+fill: var(--second-title-color);
+}
+
+.header-icon:hover,
+.header-icon:focus {
+  fill: var(--accent-color);
+}
+
 .header-list {
   display: flex;
   margin-left: 93px;
@@ -89,15 +101,13 @@ color: #000000;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--main-title-color);
+color: var(--second-title-color);
 }
 
 
 .header-item:not(:last-child) {
   margin-right: 50px;
-  
 } 
-
 
 .current {
   color: var(--accent-color);
@@ -126,7 +136,7 @@ color: #212121;
 .button-item:hover,
 .button-item:focus,
 .hero-button:hover,
-.hero-button:focus  {
+.hero-button:focus {
   color: var(--accent-color);
 }
 
@@ -142,6 +152,8 @@ padding-right: 50px;
 
 .contacts {
   margin-left: auto;
+  display: flex;
+  justify-content: center;
 }
 
 /* <!-- ---HERO--- --> */
@@ -210,10 +222,23 @@ background-color: #2196F3;
 
 .benefits-list {
   display: flex;
+  background-color: F5F4FA;
 }
+
+.benefits-cart {
+ height: 120px;
+ width: 270px;
+ display: inline-block;
+ background-color: #F5F4FA;
+}
+
+.benefits-icon {
+  align-items: center;
+  justify-content: center;
+}
+
 .benefits-item {
   width: 270px;
-
   margin-right: 30px;
 }
 
@@ -459,12 +484,9 @@ fill: #AFB1B8;
   
 }
 
-.conteiner-footer {
+.footer-position {
   display: flex;
-  /* flex-direction: row;
-  align-items: flex-start;
- margin-right: auto; */
-
+  align-items: flex-start
 }
 
 .footer-link-map {
@@ -530,7 +552,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .conteiner-footer-second {
-  padding-top: 72px;
+ margin-left: 70px;
 }
 
 .footer-title {
