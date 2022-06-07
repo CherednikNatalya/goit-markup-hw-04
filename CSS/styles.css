@@ -461,9 +461,9 @@ fill: #AFB1B8;
 
 .conteiner-footer {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row;
   align-items: flex-start;
- margin-right: auto;
+ margin-right: auto; */
 
 }
 
@@ -527,6 +527,10 @@ color: rgba(255, 255, 255, 0.6);
 
 .foote-list {
    margin-bottom: 9px;
+}
+
+.conteiner-footer-second {
+  padding-top: 72px;
 }
 
 .footer-title {
