@@ -226,15 +226,19 @@ background-color: #2196F3;
 }
 
 .benefits-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
  height: 120px;
  width: 270px;
- display: inline-block;
  background-color: #F5F4FA;
+ margin-bottom: 30px;
+ 
 }
 
 .benefits-icon {
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 .benefits-item {
