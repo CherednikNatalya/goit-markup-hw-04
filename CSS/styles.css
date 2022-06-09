@@ -85,10 +85,26 @@ margin-right: 10px;
 fill: var(--second-title-color);
 }
 
+.header-item-contact {
+
+}
+
+.header-item-contact:hover,
+.header-item-contact:focus {
+  color: var(--accent-color);
+}
+
 .header-icon:hover,
 .header-icon:focus {
   fill: var(--accent-color);
 }
+
+/* .header-item:hover,
+.header-item:focus,
+.header-mail:hover,
+.header-mail:focus {
+color: var(--accent-color);
+} */
 
 .header-list {
   display: flex;
@@ -134,20 +150,26 @@ color: #212121;
 .header-tel:hover,
 .header-tel:focus,
 .button-item:hover,
-.button-item:focus,
-.hero-button:hover,
-.hero-button:focus {
+.button-item:focus {
   color: var(--accent-color);
+}
+
+
+.button-item:hover,
+.button-item:focus {
+  color: var(--third-title-color);
+  background-color: var(--accent-color);
 }
 
 .header-mail {
 color: var(--second-title-color);
-padding-right: 50px;
+margin-right: 50px;
 }
 
 
 .header-tel {
-  color: var(--second-title-color)
+  color: var(--second-title-color);
+ margin-right: 10px;
 }
 
 .contacts {
@@ -338,7 +360,7 @@ color: var(--main-title-color);
 .team-text {
   font-weight: 400;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 12;
 color: var(--second-title-color);
 }
 
@@ -346,7 +368,6 @@ color: var(--second-title-color);
   display: flex;
   /* outline: 1px solid tomato; */
   justify-content: center;
-  padding-bottom: 30px;
 }
 
 .action-item {
