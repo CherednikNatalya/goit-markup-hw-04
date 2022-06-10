@@ -81,30 +81,19 @@ color: #000000;
 .header-icon {
 align-items: center;
 margin-right: 10px;
-/* outline: 1px solid tomato; */
-fill: var(--second-title-color);
+fill: currentColor;
 }
 
-.header-item-contact {
 
-}
-
-.header-item-contact:hover,
-.header-item-contact:focus {
+.header-link:hover,
+.header-link:focus,
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
   color: var(--accent-color);
 }
 
-.header-icon:hover,
-.header-icon:focus {
-  fill: var(--accent-color);
-}
-
-/* .header-item:hover,
-.header-item:focus,
-.header-mail:hover,
-.header-mail:focus {
-color: var(--accent-color);
-} */
 
 .header-list {
   display: flex;
@@ -143,23 +132,6 @@ letter-spacing: 0.02em;
 color: #212121;
 }
 
-.header-link:hover,
-.header-link:focus,
-.header-mail:hover,
-.header-mail:focus,
-.header-tel:hover,
-.header-tel:focus,
-.button-item:hover,
-.button-item:focus {
-  color: var(--accent-color);
-}
-
-
-.button-item:hover,
-.button-item:focus {
-  color: var(--third-title-color);
-  background-color: var(--accent-color);
-}
 
 .header-mail {
 color: var(--second-title-color);
@@ -652,6 +624,12 @@ background: #F5F4FA;
 border-radius: 4px;
 border: none;
 padding: 6px 22px;
+}
+
+.button-item:hover,
+.button-item:focus {
+  color: var(--third-title-color);
+  background-color: var(--accent-color);
 }
 
 
